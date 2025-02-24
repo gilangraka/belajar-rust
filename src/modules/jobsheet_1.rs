@@ -16,7 +16,7 @@ fn lingkaran(jari_jari: f32) -> (f32, f32) {
     (keliling, luas)
 }
 
-pub fn main_jobsheet(celcius_val: f32, jari_jari: f32) {
+pub fn main_jobsheet1(celcius_val: f32, jari_jari: f32) {
     let (fahrenheit, kelvin, rankine, reaumur) = celcius_converter(celcius_val);
     let (keliling, luas) = lingkaran(jari_jari);
 
